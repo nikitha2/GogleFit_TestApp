@@ -1,8 +1,9 @@
 # GogleFit_TestApp
 ## Important Note:
 I used a test account that did not have any data points. if your account has data, change line 124 in class OAuthAuthorization as shown below so that if a perticular day doesnt have steps it will show 0 else display steps for the day.
-            #// if your account has data. Please change the line to
-            #// dataPoint0=dataPoint0.setIntValues(0);
+
+            // if your account has data. Please change the line to
+            // dataPoint0=dataPoint0.setIntValues(0);
 
 ## Description:
 GogleFit_TestApp integrates with Google Fit. Fetch the daily step count data and display this information in a scrollable table with a single day's worth of total steps per 
