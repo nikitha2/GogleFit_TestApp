@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FitTestApp</string>
+
+    <string name="activityRecognition_access_required">Need Permission to access exercise activity data</string>
+    <string name="activityRecognition_access_granted">Permission to access activityRecognition granted</string>
+    <string name="activityRecognition_access_denied">Permission to access activityRecognition denied</string>
+
+    <string name="ok">OK</string>
+    <string name="nothanks">no,thanks!</string>
+    <string name="reason">reason for permission</string>
+    <string name="clientid">357315725202-fkik2elm7dct6thrg578ng2pmhp70nft.apps.googleusercontent.com</string>
+    <string name="logout">Sign out</string>
+
+    <string name="date">Date</string>
+    <string name="steps">Steps</string>
+    <string name="welcome">Welcome</string>
+    <string name="esclamation">!</string>
+
+</resources>
