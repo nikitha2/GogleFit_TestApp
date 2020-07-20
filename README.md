@@ -1,6 +1,6 @@
 # GogleFit_TestApp
 ## Important Note:
-I used a test account that did not have any data points. if your account has data, change line 124 in class OAuthAuthorization as shown below so that if a perticular day doesnt have steps it will show 0 else display steps for the day.
+I used a test account that did not have any data points so inserted dummy date. if your account has data, change line 124 in class OAuthAuthorization as shown below so that if a particular day doesnt have steps it will show 0 else display steps for the day.
 
             // if your account has data. Please change the line to
             // dataPoint0=dataPoint0.setIntValues(0);
