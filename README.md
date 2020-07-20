@@ -38,9 +38,5 @@ http://youtu.be/V9JzEPstH1Y?hd=1
   <img src="https://github.com/nikitha2/images_for_ReadMe/issues/1#issue-661831156" width="350" title="App architecturet">
 </p>
 
-## TestCredentials for testing:
-test.fit.gogle@gmail.com
-test_googlefit123
-
 ## License
 GogleFit_TestApp is distributed under the MIT license.
