@@ -76,11 +76,10 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         factory = new MainViewModelFactory(this);
         viewModel = ViewModelProviders.of(this,factory).get(ViewModelMain.class);
         oAuthAuthorization=new OAuthAuthorization(this);
-
     }
 
     /*
-    * check if signed in with google account, else signin and getPermissions
+    * check if signed in with google account, else sign in and getPermissions
     * */
     @Override
     protected void onStart() {
@@ -116,7 +115,7 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         startActivityForResult(signInIntent, RC_SIGN_IN);
     }
 
-    /*After Permission is denied/ accepted this is a call back method called  to comeback on the main thread*/
+    /*After Permission is denied/accepted this is a call back method called  to comeback on the main thread*/
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -171,8 +170,10 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         hiCustomer.setVisibility(tableVisibility);
         String hi= context.getResources().getString(R.string.welcome);
         String exclamations= context.getResources().getString(R.string.esclamation);
-        hiCustomer.setText(hi+" "+account.getEmail().split("@")[0]+" "+exclamations);
-
+        if(tableVisibility==View.VISIBLE) {
+            account = GoogleSignIn.getLastSignedInAccount(this);
+            hiCustomer.setText(hi + " " + account.getEmail().split("@")[0] + " " + exclamations);
+        }
     }
 
     @Override

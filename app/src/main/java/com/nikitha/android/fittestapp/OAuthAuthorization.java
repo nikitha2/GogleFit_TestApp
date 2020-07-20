@@ -19,7 +19,6 @@ import com.google.android.gms.fitness.result.DataReadResponse;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
-
 import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
