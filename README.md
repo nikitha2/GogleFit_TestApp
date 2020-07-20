@@ -27,14 +27,12 @@ make sure you have the below dependencies in build.gradle.app file
 * implementation 'com.google.android.gms:play-services-auth:18.1.0'
 
 ## Final App
-https://youtu.be/ReSVwxLiS58
+http://youtu.be/V9JzEPstH1Y?hd=1
 
 ## App architecture
 <p align="center">
   <img src="https://github.com/nikitha2/images_for_ReadMe/issues/1#issue-661831156" width="350" title="App architecturet">
 </p>
-
-![App architecture](https://github.com/nikitha2/images_for_ReadMe/issues/1#issue-661831156)
 
 ## TestCredentials for testing:
 test.fit.gogle@gmail.com
